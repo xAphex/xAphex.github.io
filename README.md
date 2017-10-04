@@ -1,1 +1,1 @@
-# [Clear Glass](https://xaphex.github.io/)
+# [Clear Glass Resource Pack](https://xaphex.github.io/)
