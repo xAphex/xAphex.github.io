@@ -55,14 +55,12 @@ ul.topnav li.right {float: right;}
 /* ######################################### CLASSES ######################################## */
 /* ########################################################################################## */
 
-/* PE CLASS */
 .PE {
 	height: 70px;
 }
 
-/* RP CLASS */
 .RP {
-	color: #ffffff;
+	color: white;
 	display: inline-block;
 	height: 50px;
 }
@@ -72,6 +70,10 @@ ul.topnav li.right {float: right;}
 	height: 480px;
 }
 
+.link {
+	color: white;
+	text-decoration: none;
+}
 /* ########################################################################################## */
 /* ######################################## DOWNLOAD ######################################## */
 /* ########################################################################################## */
@@ -82,7 +84,7 @@ ul.topnav li.right {float: right;}
 	border: 2px solid #1d1d1d;
 	display: inline-block;
 	cursor: pointer;
-	color: #ffffff;
+	color: white;
 	padding: 6px 24px;
 	text-decoration: none;
 	overflow: hidden;
