@@ -78,7 +78,7 @@ ul.topnav li.right {float: right;}
 
 .link:hover {
 	border-radius: 5px;
-	background-color: #2c2c2c;
+	background-color: #1C1C1C;
 	padding: 1px 10px;
 }
 
@@ -105,6 +105,20 @@ ul.topnav li.right {float: right;}
 .Download:active {
 	position: relative;
 	top: 1px;
+}
+
+/* ########################################################################################## */
+/* ######################################### FOOTER ######################################### */
+/* ########################################################################################## */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1C1C1C;
+   color: white;
+   text-align: center;
 }
 
 /* ########################################################################################## */
