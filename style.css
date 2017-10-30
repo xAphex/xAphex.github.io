@@ -28,6 +28,8 @@ ul.topnav {
 
 ul.topnav li {float: left;}
 
+ul.topnav li.right {float: right;}
+
 ul.topnav li a {
     display: block;
     color: white;
@@ -36,9 +38,11 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li.right {float: right;}
+ul.topnav li a:hover:not(.active) {
+	background-color: #111;
+	padding-right: 25px;
+	padding-left: 25px;
+}
 
 /* ########################################################################################## */
 /* ######################################### CLASSES ######################################## */
