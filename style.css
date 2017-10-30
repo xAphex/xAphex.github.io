@@ -100,11 +100,12 @@ ul.topnav li.right {float: right;}
 
 .Download:hover {
 	background-color: #242424;
+	padding: 10px 30px;
 }
 
 .Download:active {
 	position: relative;
-	top: 1px;
+	top: 3px;
 }
 
 /* ########################################################################################## */
