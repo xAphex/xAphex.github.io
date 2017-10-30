@@ -77,7 +77,6 @@ ul.topnav li.right {float: right;}
 }
 
 .link:hover {
-	border-style: dashed;
 	border-radius: 5px;
 	background-color: #1C1C1C;
 	padding: 1px 10px;
@@ -106,7 +105,7 @@ ul.topnav li.right {float: right;}
 
 .Download:active {
 	position: relative;
-	top: 3px;
+	top: 5px;
 }
 
 /* ########################################################################################## */
