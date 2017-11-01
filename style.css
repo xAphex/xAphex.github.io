@@ -26,9 +26,9 @@ ul.topnav {
     background-color: #1C1C1C;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {float: left}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {float: right}
 
 ul.topnav li a {
     display: block;
@@ -55,6 +55,8 @@ ul.topnav li a:hover:not(.active) {
 }
 
 .PE {
+	color: #ffffff;
+	display: inline-block;
 	height: 70px;
 }
 
