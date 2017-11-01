@@ -116,9 +116,9 @@ ul.topnav li a:hover:not(.active) {
 @media screen and (max-width: 600px) {
 
 	ul.topnav li.right,
-	ul.topnav li {float: none;}
+	ul.topnav li {float: none}
 
-	.PE {height: inherit;}
-	.RP {height: inherit;}
+	.PE {height: inherit}
+	.RP {height: inherit}
 
 }
