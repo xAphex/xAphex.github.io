@@ -8,11 +8,11 @@
 }
 
 body {
-	font-family: minecraftia;
 	font-size: 16px;
 	color: white;
-	background-color: #121212;
 	margin: 0;
+	font-family: minecraftia;
+	background-color: #121212;
 }
 
 a {
