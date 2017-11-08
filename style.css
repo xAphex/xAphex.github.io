@@ -1,5 +1,5 @@
 /* ########################################################################################## */
-/* ########################################## BODY ########################################## */
+/* ######################################### WEBSITE ######################################## */
 /* ########################################################################################## */
 
 @font-face {
@@ -15,16 +15,19 @@ body {
 	margin: 0;
 }
 
+a {
+	color: white;
+}
 /* ########################################################################################## */
 /* ######################################### NAVBAR ######################################### */
 /* ########################################################################################## */
 
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1C1C1C;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1C1C1C;
 }
 
 ul.topnav li {float: left}
@@ -32,15 +35,15 @@ ul.topnav li {float: left}
 ul.topnav li.right {float: right}
 
 ul.topnav li a {
-    display: block;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {
 	background-color: #111;
-	padding: 0px 25px;
+	padding: 10px 25px;
 }
 
 /* ########################################################################################## */
