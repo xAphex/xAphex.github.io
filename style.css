@@ -51,6 +51,7 @@ ul.topnav li a:hover:not(.active) {
 .format {
 	margin-top: 1%;
 	margin-left: 3%;
+	padding-bottom: 20px;
 	float: left;
 }
 
