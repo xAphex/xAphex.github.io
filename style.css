@@ -10,6 +10,7 @@
 body {
 	font-family: minecraftia;
 	font-size: 16px;
+	color: white;
 	background-color: #121212;
 	margin: 0;
 }
@@ -32,7 +33,6 @@ ul.topnav li.right {float: right}
 
 ul.topnav li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
@@ -40,8 +40,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {
 	background-color: #111;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding: 0px 25px;
 }
 
 /* ########################################################################################## */
@@ -56,13 +55,11 @@ ul.topnav li a:hover:not(.active) {
 }
 
 .PE {
-	color: #ffffff;
 	height: 70px;
 	display: inline-block;
 }
 
 .RP {
-	color: white;
 	height: 50px;
 	display: inline-block;
 }
@@ -73,13 +70,11 @@ ul.topnav li a:hover:not(.active) {
 }
 
 .CL {
-	color: white;
 	padding-top: 2.5%;
 	font-family: minecraftia;
 }
 
 .link {
-	color: white;
 	font-size: 24px;
 	text-decoration: none;
 }
@@ -98,7 +93,6 @@ ul.topnav li a:hover:not(.active) {
 	border: 2px solid #0e0e0e;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
 	padding: 6px 24px;
 	text-decoration: none;
 	overflow: hidden;
