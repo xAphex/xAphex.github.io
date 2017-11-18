@@ -102,12 +102,13 @@ ul.topnav li a:hover:not(.active) {
 
 .Download:hover {
 	background-color: #242424;
-	padding: 10px 28px;
+	position: relative;
+	bottom: 10px;
 }
 
 .Download:active {
 	position: relative;
-	top: 5px;
+	bottom: 5px;
 }
 
 /* ########################################################################################## */
