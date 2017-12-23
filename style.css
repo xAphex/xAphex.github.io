@@ -102,17 +102,22 @@ ul.topnav li a:hover:not(.active) {
 	padding: 6px 24px;
 	text-decoration: none;
 	overflow: hidden;
+	transition: 0.08s all ease-in-out;
 }
 
 .Download:hover {
 	background-color: #242424;
-	position: relative;
-	bottom: 10px;
+	-ms-transform: translate(0px,-10px);
+	-webkit-transform: translate(0px,-10px);
+	transform: translate(0px,-10px);
+	transition: 0.08s all ease-in-out;
 }
 
 .Download:active {
-	position: relative;
-	bottom: 5px;
+	-ms-transform: translate(0px,10px);
+	-webkit-transform: translate(0px,10px);
+	transform: translate(0px,10px);
+	transition: 0.08s all ease-in-out;
 }
 
 /* ########################################################################################## */
