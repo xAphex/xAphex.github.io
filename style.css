@@ -114,9 +114,9 @@ ul.topnav li a:hover:not(.active) {
 }
 
 .Download:active {
-	-ms-transform: translate(0px,10px);
-	-webkit-transform: translate(0px,10px);
-	transform: translate(0px,10px);
+	-ms-transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	transform: translate(0px,5px);
 	transition: 0.08s all ease-in-out;
 }
 
