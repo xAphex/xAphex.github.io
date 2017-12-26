@@ -21,33 +21,39 @@ a {
 /* ########################################################################################## */
 /* ######################################### NAVBAR ######################################### */
 /* ########################################################################################## */
+@media screen and (min-width: 1px) {
 
-ul.topnav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #1C1C1C;
+	ul.topnav {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #1C1C1C;
+	}
+
+	ul.topnav li {float: left}
+
+	ul.topnav li.right {float: right}
+
+	ul.topnav li a {
+		display: block;
+		text-align: center;
+		padding: 10px 16px;
+		text-decoration: none;
+		transition: 0.08s all ease-in-out;
+	}
+
+	ul.topnav li a:hover:not(.active) {
+		background-color: #111;
+		padding: 10px 24px;
+		transition: 0.08s all ease-in-out;
+	}
+
+	.menu-button, .closebtn {
+		display: none;
+	}
+
 }
-
-ul.topnav li {float: left}
-
-ul.topnav li.right {float: right}
-
-ul.topnav li a {
-	display: block;
-	text-align: center;
-	padding: 10px 16px;
-	text-decoration: none;
-	transition: 0.08s all ease-in-out;
-}
-
-ul.topnav li a:hover:not(.active) {
-	background-color: #111;
-	padding: 10px 24px;
-	transition: 0.08s all ease-in-out;
-}
-
 /* ########################################################################################## */
 /* ######################################### CLASSES ######################################## */
 /* ########################################################################################## */
@@ -124,9 +130,59 @@ ul.topnav li a:hover:not(.active) {
 /* ######################################### MOBILE ######################################### */
 /* ########################################################################################## */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
-	ul.topnav li.right, ul.topnav li {float: none}
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #1C1C1C;
+		overflow-x: hidden;
+		padding-top: 15px;
+		transition: 0.3s;
+	}
+
+	.sidenav a {
+		text-decoration: none;
+		font-size: 16px;
+		color: white;
+		display: block;
+		transition: 0.1s;
+	}
+
+	.sidenav a:hover {
+		background-color: #111;
+		padding: 10px 24px;
+		transition: 0.08s all ease-in-out;
+	}
+
+	.sidenav .closebtn {
+		font-size: 32px;
+		text-align: right;
+		padding-right: 30px;
+		padding-bottom: 10px;
+	}
+
+	.menu-button {
+		position: fixed;
+		display: inline;
+		font-size: 48px;
+		cursor: pointer;
+		padding: 0px 15px 5px 15px;
+		background-color: black;
+		opacity: 0.5;
+	}
+
+	.menu-button:hover {
+		opacity: 1;
+	}
+
+	ul.topnav li {float: none}
+
+	ul.topnav li.right {float: none}
 
 	.RP, .PE {height: inherit}
 
