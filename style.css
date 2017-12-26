@@ -49,7 +49,7 @@ a {
 		transition: 0.08s all ease-in-out;
 	}
 
-	.menu-button, .closebtn {
+	.menu-button {
 		display: none;
 	}
 
@@ -157,13 +157,6 @@ a {
 		background-color: #111;
 		padding: 10px 24px;
 		transition: 0.08s all ease-in-out;
-	}
-
-	.sidenav .closebtn {
-		font-size: 32px;
-		text-align: right;
-		padding-right: 30px;
-		padding-bottom: 10px;
 	}
 
 	.menu-button {
