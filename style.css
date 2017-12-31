@@ -20,8 +20,13 @@ a {
 }
 
 ::selection {
-  background-color: transparent;
-  color: inherit;
+	background-color: transparent;
+	color: inherit;
+}
+
+::-moz-selection {
+	background-color: transparent;
+	color: inherit;
 }
 
 /* ########################################################################################## */
