@@ -4,6 +4,7 @@
 
 	<head>
 
+		<!-- WEBSITE -->
 		<title>Info</title>
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link rel="canonical" href="https://xaphex.github.io/">
@@ -23,19 +24,26 @@
 		<meta property="og:description" content="Connected Clear Glass | Clear Glass | Clear Ice ~ Resource Pack ~">
 
 		<!-- STYLES -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<!-- SCRIPTS -->
-		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script src="menubar.js"></script>
 
 	</head>
 
 	<body>
 
-		<div w3-include-html="navbar.html"></div>
-		<script src="menubar.js"></script>
-		<script>w3.includeHTML();</script>
+		<span class="menu-button" onclick="openNav()"><i class="fas fa-bars"></i></span>
+		<ul id="menubar" class="topnav sidenav">
+			<li class="right"><a href="Changelog" title="Visit link"><i class="fas fa-file-alt"></i> Changelog</a></li>
+			<li class="right"><a href="Info" title="Visit link"><i class="fas fa-info"></i> Info</a></li>
+			<li class="right"><a href="PE" title="Visit link"><i class="fas fa-mobile-alt"></i> PE</a></li>
+			<li class="right"><a href="/" title="Visit link"><i class="fas fa-home"></i> Home</a></li>
+			<li><a href="Connected-Clear-Glass" title="Visit link"><i class="fas fa-th-large"></i> Connected Clear Glass</a></li>
+			<li><a href="Clear-Glass" title="Visit link"><i class="far fa-square"></i> Clear Glass</a></li>
+			<li><a href="Clear-Ice" title="Visit link"><i style="color:#77A9FF" class="fas fa-square"></i> Clear Ice</a></li>
+		</ul>
 		<!-- Place code under this comment -->
 
 		<div class="format">
