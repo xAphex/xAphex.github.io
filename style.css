@@ -175,8 +175,7 @@ a {
 		display: inline;
 		font-size: 48px;
 		cursor: pointer;
-		padding: 0px 15px 5px 15px;
-		background-color: black;
+		padding-left: 5%;
 		opacity: 0.5;
 	}
 
