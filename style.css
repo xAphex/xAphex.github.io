@@ -141,33 +141,19 @@ a {
 /* ######################################### MOBILE ######################################### */
 /* ########################################################################################## */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
 	.sidenav {
 		height: 100%;
-		width: 0;
 		position: fixed;
-		z-index: 1;
-		top: 0;
-		left: 0;
 		background-color: #1C1C1C;
-		overflow-x: hidden;
-		padding-top: 15px;
-		transition: 0.3s;
+		transition: 0.2s all ease-in-out;
 	}
 
 	.sidenav a {
 		text-decoration: none;
-		font-size: 16px;
 		color: white;
 		display: block;
-		transition: 0.1s;
-	}
-
-	.sidenav a:hover {
-		background-color: #111;
-		padding: 10px 24px;
-		transition: 0.08s all ease-in-out;
 	}
 
 	.menu-button {
