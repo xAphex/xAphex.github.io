@@ -1,4 +1,4 @@
-if (document.documentElement.clientWidth < 500) {
+if (document.documentElement.clientWidth < 800) {
 
 	function openNav() {
 		document.getElementById("menubar").style.width = "250px";
