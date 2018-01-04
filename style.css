@@ -177,7 +177,6 @@ a {
 		cursor: pointer;
 		padding-left: 5%;
 		opacity: 0.5;
-		-webkit-backface-visibility: hidden;
 	}
 
 	.menu-button:hover {
