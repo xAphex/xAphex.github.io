@@ -142,6 +142,7 @@ a {color: white}
 	.sidenav {
 		height: 100%;
 		position: fixed;
+		overflow-x: hidden;
 		background-color: #1C1C1C;
 		transition: 0.2s all ease-in-out;
 	}
