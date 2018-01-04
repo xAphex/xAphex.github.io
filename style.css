@@ -15,9 +15,7 @@ body {
 	background-color: #121212;
 }
 
-a {
-	color: white;
-}
+a {color: white}
 
 ::selection {
 	background-color: transparent;
@@ -54,15 +52,13 @@ a {
 		transition: 0.08s all ease-in-out;
 	}
 
-	ul.topnav li a:hover:not(.active) {
+	ul.topnav li a:hover {
 		background-color: #111;
 		padding: 10px 24px;
 		transition: 0.08s all ease-in-out;
 	}
 
-	.menu-button {
-		display: none;
-	}
+	.menu-button {display: none}
 
 }
 /* ########################################################################################## */
@@ -152,7 +148,6 @@ a {
 
 	.sidenav a {
 		text-decoration: none;
-		color: white;
 		display: block;
 	}
 
@@ -165,9 +160,9 @@ a {
 		opacity: 0.5;
 	}
 
-	.menu-button:hover {
-		opacity: 1;
-	}
+	.menu-button:hover {opacity: 1}
+
+	ul.topnav li a:hover {padding: 10px 16px}
 
 	ul.topnav li {float: none}
 
