@@ -139,6 +139,7 @@ a {color: white}
 @media screen and (max-width: 800px) {
 
 	.sidenav {
+		top: 0;
 		width: 0;
 		height: 100%;
 		position: fixed;
