@@ -68,7 +68,6 @@ a {color: white}
 .format {
 	margin: 1% 0% 0% 3%;
 	padding-bottom: 30px;
-	float: left;
 }
 
 .PE {
@@ -163,6 +162,4 @@ a {color: white}
 	ul.topnav li.right {float: none}
 
 	.RP, .PE {height: inherit}
-
-	.format {float: none}
 }
