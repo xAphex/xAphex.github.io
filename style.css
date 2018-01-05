@@ -1,6 +1,4 @@
-/* ########################################################################################## */
 /* ######################################### WEBSITE ######################################## */
-/* ########################################################################################## */
 
 @font-face {
 	font-family: minecraftia;
@@ -27,9 +25,8 @@ a {color: white}
 	background-color: transparent;
 }
 
-/* ########################################################################################## */
 /* ######################################### NAVBAR ######################################### */
-/* ########################################################################################## */
+
 @media screen and (min-width: 1px) {
 
 	ul.topnav {
@@ -49,21 +46,20 @@ a {color: white}
 		text-align: center;
 		padding: 10px 16px;
 		text-decoration: none;
-		transition: 0.08s all ease-in-out;
+		transition: 0.1s;
 	}
 
 	ul.topnav li a:hover {
-		padding: 10px 24px;
+		padding: 10px 26px;
 		background-color: #111;
-		transition: 0.08s all ease-in-out;
+		transition: 0.1s;
 	}
 
 	.menu-button {display: none}
 
 }
-/* ########################################################################################## */
+
 /* ######################################### CLASSES ######################################## */
-/* ########################################################################################## */
 
 .format {
 	margin: 1% 0% 0% 3%;
@@ -93,17 +89,15 @@ a {color: white}
 .link {
 	font-size: 24px;
 	text-decoration: none;
-	transition: 0.1s all ease-in-out;
+	transition: 0.2s;
 }
 
 .link:hover {
 	padding-left: 30px;
-	transition: 0.1s all ease-in-out;
+	transition: 0.2s;
 }
 
-/* ########################################################################################## */
 /* ######################################## DOWNLOAD ######################################## */
-/* ########################################################################################## */
 
 .Download {
 	cursor: pointer;
@@ -114,7 +108,7 @@ a {color: white}
 	text-decoration: none;
 	border: 2px solid #0e0e0e;
 	background-color: #1b1b1b;
-	transition: 0.05s all ease-in-out;
+	transition: 0.1s;
 }
 
 .Download:hover {
@@ -122,19 +116,17 @@ a {color: white}
 	transform: translate(0px,-10px);
 	-ms-transform: translate(0px,-10px);
 	-webkit-transform: translate(0px,-10px);
-	transition: 0.05s all ease-in-out;
+	transition: 0.1s;
 }
 
 .Download:active {
 	transform: translate(0px,5px);
 	-ms-transform: translate(0px,5px);
 	-webkit-transform: translate(0px,5px);
-	transition: 0.05s all ease-in-out;
+	transition: 0.1s;
 }
 
-/* ########################################################################################## */
 /* ######################################### MOBILE ######################################### */
-/* ########################################################################################## */
 
 @media screen and (max-width: 800px) {
 
@@ -145,7 +137,7 @@ a {color: white}
 		height: 100%;
 		position: fixed;
 		background-color: #1C1C1C;
-		transition: 0.2s all ease-in-out;
+		transition: 0.3s;
 	}
 
 	.menu-button {
