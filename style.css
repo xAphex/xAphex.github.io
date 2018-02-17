@@ -173,6 +173,11 @@ a {color: white}
 		opacity: 0.5;
 	}
 
+	.MCB {
+		overflow: hidden;
+		display: inline-block;
+	}
+
 	.menu-button:hover {opacity: 1}
 
 	ul.topnav li {float: none}
