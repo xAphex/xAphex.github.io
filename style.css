@@ -39,16 +39,16 @@ a {color: white}
 
 	ul.topnav li a {
 		display: block;
-		text-align: center;
-		padding: 10px 16px;
-		text-decoration: none;
 		transition: 0.1s;
+		padding: 10px 16px;
+		text-align: center;
+		text-decoration: none;
 	}
 
 	ul.topnav li a:hover {
+		transition: 0.1s;
 		padding: 10px 26px;
 		background-color: #111;
-		transition: 0.1s;
 	}
 
 	.menu-button {display: none}
@@ -82,13 +82,13 @@ a {color: white}
 
 .link {
 	font-size: 24px;
-	text-decoration: none;
 	transition: 0.2s;
+	text-decoration: none;
 }
 
 .link:hover {
-	padding-left: 30px;
 	transition: 0.2s;
+	padding-left: 30px;
 }
 
 .footer {
@@ -106,50 +106,51 @@ a {color: white}
 .Download {
 	cursor: pointer;
 	overflow: hidden;
+	transition: 0.1s;
 	padding: 6px 24px;
 	border-radius: 6px;
 	display: inline-block;
 	text-decoration: none;
 	border: 2px solid #0e0e0e;
 	background-color: #1b1b1b;
-	transition: 0.1s;
 }
 
 .Download:hover {
+	transition: 0.1s;
 	background-color: #242424;
 	transform: translate(0px,-10px);
 	-ms-transform: translate(0px,-10px);
 	-webkit-transform: translate(0px,-10px);
-	transition: 0.1s;
 }
 
 .Download:active {
+	transition: 0.1s;
 	transform: translate(0px,5px);
 	-ms-transform: translate(0px,5px);
 	-webkit-transform: translate(0px,5px);
-	transition: 0.1s;
 }
 
 .MCB {
+	color: #E0E0E0;
+	box-sizing: border-box;
 	outline: 2px solid black;
 	padding: 0px 5px 0px 5px;
-	background-image: url(MCB/button_center.png);
 	background-repeat: repeat;
-	text-shadow: 3px 3px #4C4C4C;
-	border-bottom: 4px solid #565656;
-	border-right: 2px solid #565656;
-	border-left: 2px solid #AAA;
 	border-top: 2px solid #AAA;
-	box-sizing: border-box;
+	border-left: 2px solid #AAA;
+	text-shadow: 3px 3px #4C4C4C;
+	border-right: 2px solid #565656;
+	border-bottom: 4px solid #565656;
+	background-image: url(MCB/button_center.png);
 }
 
 .MCB:hover {
-	border-bottom: 4px solid #59639A;
-	border-right: 2px solid #59639A;
-	border-left: 2px solid #BDC6FF;
-	border-top: 2px solid #BDC6FF;
-	background-image: url(MCB/button_active_center.png);
 	color: #FFFFA0;
+	border-top: 2px solid #BDC6FF;
+	border-left: 2px solid #BDC6FF;
+	border-right: 2px solid #59639A;
+	border-bottom: 4px solid #59639A;
+	background-image: url(MCB/button_active_center.png);
 }
 
 @media screen and (max-width: 800px) {
@@ -160,17 +161,17 @@ a {color: white}
 		z-index: 1;
 		height: 100%;
 		position: fixed;
-		background-color: #1C1C1C;
 		transition: 0.3s;
+		background-color: #1C1C1C;
 	}
 
 	.menu-button {
-		position: fixed;
-		display: inline;
-		font-size: 48px;
-		cursor: pointer;
-		padding-left: 5%;
 		opacity: 0.5;
+		cursor: pointer;
+		display: inline;
+		position: fixed;
+		font-size: 48px;
+		padding-left: 5%;
 	}
 
 	.MCB {
