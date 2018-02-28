@@ -94,7 +94,6 @@ a {color: white}
 .footer {
 	bottom: 0;
 	width: 100%;
-	position: absolute;
 	text-align: center;
 	background-color: #1C1C1C;
 }
@@ -189,7 +188,5 @@ a {color: white}
 	ul.topnav li.right {float: none}
 
 	.RP, .PE {height: inherit}
-
-	.footer {position: initial}
 
 }
