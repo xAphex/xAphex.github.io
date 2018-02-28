@@ -207,8 +207,8 @@ a {color: white}
 
 }
 
-@media screen and (max-width: 1600px) and (max-width: 1680px) {.logotext {font-size: 40px}}
+@media screen and (min-width: 1600px) and (max-width: 1680px) {.logotext {font-size: 40px}}
 
-@media screen and (max-width: 1080px) and (max-width: 1200px) {.logotext {font-size: 50px}}
+@media screen and (min-width: 1080px) and (max-width: 1200px) {.logotext {font-size: 50px}}
 
-@media screen and (max-width: 3840px) {.logotext {font-size: 80px}}
+@media screen and (min-width: 3840px) {.logotext {font-size: 80px}}
