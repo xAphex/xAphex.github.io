@@ -80,6 +80,16 @@ a {color: white}
 	font-family: minecraftia;
 }
 
+.logo {
+	padding-top: 6%;
+	text-align: center;
+}
+
+.logotext {
+	font-size: 32px;
+	text-decoration: none;
+}
+
 .link {
 	font-size: 24px;
 	transition: 0.2s;
@@ -196,3 +206,9 @@ a {color: white}
 	.footerfix {position: initial}
 
 }
+
+@media screen and (max-width: 1600px) and (max-width: 1680px) {.logotext {font-size: 40px}}
+
+@media screen and (max-width: 1080px) and (max-width: 1200px) {.logotext {font-size: 50px}}
+
+@media screen and (max-width: 3840px) {.logotext {font-size: 80px}}
