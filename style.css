@@ -98,6 +98,10 @@ a {color: white}
 	background-color: #1C1C1C;
 }
 
+.footerfix {
+	position: absolute;
+}
+
 .hr {
 	margin: 0;
 	height: 1px;
@@ -188,5 +192,7 @@ a {color: white}
 	ul.topnav li.right {float: none}
 
 	.RP, .PE {height: inherit}
+
+	.footerfix {position: initial}
 
 }
