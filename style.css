@@ -162,7 +162,7 @@ a {color: white}
 
 .MCB:hover {
 	color: #FFFFA0;
-	background-color: initial;
+	background-color: inherit;
 	border-top: 2px solid #BDC6FF;
 	border-left: 2px solid #BDC6FF;
 	border-right: 2px solid #59639A;
