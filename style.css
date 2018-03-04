@@ -67,7 +67,6 @@ a {color: white}
 }
 
 .RP {
-	height: 50px;
 	display: inline-block;
 }
 
@@ -201,8 +200,6 @@ a {color: white}
 	ul.topnav li {float: none}
 
 	ul.topnav li.right {float: none}
-
-	.RP, .PE {height: inherit}
 
 	.footerfix {position: initial}
 
