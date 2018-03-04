@@ -61,12 +61,7 @@ a {color: white}
 	padding-bottom: 30px;
 }
 
-.PE {
-	height: 70px;
-	display: inline-block;
-}
-
-.RP {
+.RP, .PE {
 	display: inline-block;
 }
 
