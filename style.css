@@ -61,7 +61,13 @@ a {color: white}
 	padding-bottom: 30px;
 }
 
-.RP {
+.head {
+	font-size: 64px;
+	display: inline-block;
+}
+
+.subhead {
+	font-size: 32px;
 	display: inline-block;
 }
 
