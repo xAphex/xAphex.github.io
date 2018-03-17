@@ -14,6 +14,8 @@ body {
 
 a {color: white}
 
+pre {font-family: minecraftia}
+
 ::selection {
 	color: inherit;
 	background-color: transparent;
@@ -74,11 +76,6 @@ a {color: white}
 .SS {
 	width: 854px;
 	height: 480px;
-}
-
-.CL {
-	padding-top: 2.5%;
-	font-family: minecraftia;
 }
 
 .logo {
