@@ -3,13 +3,12 @@
 	src: url(Files/minecraftia.ttf);
 }
 
-html {background-color: #121212}
-
-body {
+html, body {
 	margin: 0;
 	color: white;
 	font-size: 16px;
 	font-family: minecraftia;
+	background-color: #121212;
 }
 
 a {color: white}
