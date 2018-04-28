@@ -1,6 +1,6 @@
 @font-face {
 	font-family: minecraftia;
-	src: url(Files/minecraftia.ttf);
+	src: url('Files/minecraftia.ttf');
 }
 
 html, body {
@@ -116,13 +116,12 @@ pre {font-family: minecraftia}
 	box-sizing: border-box;
 	outline: 2px solid black;
 	padding: 0px 10px 0px 10px;
-	background-repeat: repeat;
 	border-top: 2px solid #AAA;
 	border-left: 2px solid #AAA;
 	text-shadow: 3px 3px #4C4C4C;
 	border-right: 2px solid #565656;
 	border-bottom: 4px solid #565656;
-	background-image: url('Files/button_center.png') 0 0 no-repeat;
+	background-image: url('Files/button_center.png');
 }
 
 .MCB:hover {
@@ -131,7 +130,7 @@ pre {font-family: minecraftia}
 	border-left: 2px solid #BDC6FF;
 	border-right: 2px solid #59639A;
 	border-bottom: 4px solid #59639A;
-	background-image: url('Files/button_active_center.png') 0 0 no-repeat;
+	background-image: url('Files/button_active_center.png');
 }
 
 @media screen and (min-width: 1px) {
