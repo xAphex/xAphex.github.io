@@ -122,7 +122,7 @@ pre {font-family: minecraftia}
 	text-shadow: 3px 3px #4C4C4C;
 	border-right: 2px solid #565656;
 	border-bottom: 4px solid #565656;
-	background-image: url(Files/button_center.png);
+	background-image: url('Files/button_center.png') 0 0 no-repeat;
 }
 
 .MCB:hover {
@@ -131,13 +131,7 @@ pre {font-family: minecraftia}
 	border-left: 2px solid #BDC6FF;
 	border-right: 2px solid #59639A;
 	border-bottom: 4px solid #59639A;
-	background-image: url(Files/button_active_center.png);
-}
-
-.MCB, .MCB:hover {
-	backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
+	background-image: url('Files/button_active_center.png') 0 0 no-repeat;
 }
 
 @media screen and (min-width: 1px) {
