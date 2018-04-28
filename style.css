@@ -25,38 +25,6 @@ pre {font-family: minecraftia}
 	background-color: transparent;
 }
 
-@media screen and (min-width: 1px) {
-
-	ul.topnav {
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		list-style-type: none;
-		background-color: #1C1C1C;
-	}
-
-	ul.topnav li {float: left}
-
-	ul.topnav li.right {float: right}
-
-	ul.topnav li a {
-		display: block;
-		transition: 0.1s;
-		padding: 10px 16px;
-		text-align: center;
-		text-decoration: none;
-	}
-
-	ul.topnav li a:hover {
-		transition: 0.1s;
-		padding: 10px 26px;
-		background-color: #111;
-	}
-
-	.menu-button {display: none}
-
-}
-
 .format {
 	margin: 1% 0% 0% 3%;
 	padding-bottom: 30px;
@@ -164,6 +132,44 @@ pre {font-family: minecraftia}
 	border-right: 2px solid #59639A;
 	border-bottom: 4px solid #59639A;
 	background-image: url(Files/button_active_center.png);
+}
+
+.MCB, .MCB:hover {
+	backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+@media screen and (min-width: 1px) {
+
+	ul.topnav {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		list-style-type: none;
+		background-color: #1C1C1C;
+	}
+
+	ul.topnav li {float: left}
+
+	ul.topnav li.right {float: right}
+
+	ul.topnav li a {
+		display: block;
+		transition: 0.1s;
+		padding: 10px 16px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	ul.topnav li a:hover {
+		transition: 0.1s;
+		padding: 10px 26px;
+		background-color: #111;
+	}
+
+	.menu-button {display: none}
+
 }
 
 @media screen and (max-width: 800px) {
