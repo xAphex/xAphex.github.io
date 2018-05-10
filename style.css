@@ -113,7 +113,6 @@ pre {font-family: minecraftia}
 
 .MCB {
 	color: #E0E0E0;
-	box-sizing: border-box;
 	outline: 2px solid black;
 	padding: 0px 10px 0px 10px;
 	border-top: 2px solid #AAA;
