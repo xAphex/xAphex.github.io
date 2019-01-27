@@ -50,22 +50,6 @@ pre {font-family: minecraftia}
 	text-align: center;
 }
 
-.logotext {
-	font-size: 32px;
-	text-decoration: none;
-}
-
-.link {
-	font-size: 24px;
-	transition: 0.2s;
-	text-decoration: none;
-}
-
-.link:hover {
-	transition: 0.2s;
-	padding-left: 30px;
-}
-
 .hr {
 	margin: 0;
 	height: 1px;
@@ -73,31 +57,31 @@ pre {font-family: minecraftia}
 	background-color: #262626;
 }
 
-.Download {
-	cursor: pointer;
-	overflow: hidden;
-	transition: 0.1s;
-	padding: 6px 24px;
-	border-radius: 6px;
+.download {
+	font-size: 24px;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+.download:hover {
+	transition: 0.2s;
+	padding-left: 30px;
+}
+
+.dl {
+	transition: 0.2s;
 	display: inline-block;
 	text-decoration: none;
-	border: 2px solid #0e0e0e;
-	background-color: #1b1b1b;
 }
 
-.Download:hover {
-	transition: 0.1s;
-	background-color: #242424;
+.dl:hover {
+	transition: 0.2s;
 	transform: translate(0px,-10px);
-	-ms-transform: translate(0px,-10px);
-	-webkit-transform: translate(0px,-10px);
 }
 
-.Download:active {
-	transition: 0.1s;
+.dl:active {
+	transition: 0.2s;
 	transform: translate(0px,5px);
-	-ms-transform: translate(0px,5px);
-	-webkit-transform: translate(0px,5px);
 }
 
 .MCB {
@@ -186,9 +170,3 @@ pre {font-family: minecraftia}
 	ul.topnav li.right {float: none}
 
 }
-
-@media screen and (min-width: 1600px) and (max-height: 1050px) {.logotext {font-size: 40px}}
-
-@media screen and (min-width: 1920px) and (max-height: 1200px) {.logotext {font-size: 50px}}
-
-@media screen and (min-width: 3840px) and (max-height: 2160px) {.logotext {font-size: 80px}}
