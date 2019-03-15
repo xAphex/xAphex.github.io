@@ -13,8 +13,6 @@ html, body {
 
 a {color: white}
 
-pre {font-family: minecraftia}
-
 ::selection {
 	color: inherit;
 	background-color: transparent;
