@@ -55,18 +55,18 @@ a {color: white}
 	background-color: #262626;
 }
 
-.dl {
+.download {
 	transition: 0.2s;
 	display: inline-block;
 	text-decoration: none;
 }
 
-.dl:hover {
+.download:hover {
 	transition: 0.2s;
 	transform: translate(0px,-10px);
 }
 
-.dl:active {
+.download:active {
 	transition: 0.2s;
 	transform: translate(0px,5px);
 }
