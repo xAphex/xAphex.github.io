@@ -87,68 +87,26 @@ a {color: white}
 	background-image: url('files/button_active_center.png');
 }
 
-@media screen and (min-width: 1px) {
-
-	ul.topnav {
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		list-style-type: none;
-		background-color: #1C1C1C;
-	}
-
-	ul.topnav li {float: left}
-
-	ul.topnav li.right {float: right}
-
-	ul.topnav li a {
-		display: block;
-		transition: 0.1s;
-		padding: 10px 16px;
-		text-align: center;
-		text-decoration: none;
-	}
-
-	ul.topnav li a:hover {
-		transition: 0.1s;
-		padding: 10px 26px;
-		background-color: #111;
-	}
-
-	.menu-button {display: none}
-
+ul.navbar {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: #1C1C1C;
 }
 
-@media screen and (max-width: 800px) {
-
-	.sidenav {
-		top: 0;
-		width: 0;
-		z-index: 1;
-		height: 100%;
-		position: fixed;
-		transition: 0.3s;
-		background-color: #1C1C1C;
-	}
-
-	.menu-button {
-		opacity: 0.5;
-		cursor: pointer;
-		display: inline;
-		position: fixed;
-		font-size: 48px;
-		padding-left: 5%;
-	}
-
-	.MCB {
-		overflow: hidden;
-		display: inline-block;
-	}
-
-	.menu-button:hover {opacity: 1}
-
-	ul.topnav li {float: none}
-
-	ul.topnav li.right {float: none}
-
+ul.navbar li a {
+	display: block;
+	transition: 0.1s;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
 }
+
+ul.navbar li a:hover {
+	transition: 0.1s;
+	padding: 10px 26px;
+	background-color: #111;
+}
+
+ul.navbar li {float: left}
