@@ -45,24 +45,10 @@ a {color: white}
 	background-color: #262626;
 }
 
-.download {
-	transition: 0.2s;
-	display: inline-block;
-	text-decoration: none;
-}
-
-.download:hover {
-	transition: 0.2s;
-	transform: translate(0px,-10px);
-}
-
-.download:active {
-	transition: 0.2s;
-	transform: translate(0px,5px);
-}
-
 .MCB {
 	color: #E0E0E0;
+	display: inline-block;
+	text-decoration: none;
 	outline: 2px solid black;
 	padding: 0px 10px 0px 10px;
 	border-top: 2px solid #AAA;
