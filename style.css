@@ -78,15 +78,12 @@ ul.navbar {
 
 ul.navbar li a {
 	display: block;
-	transition: 0.1s;
 	padding: 10px 16px;
 	text-align: center;
 	text-decoration: none;
 }
 
 ul.navbar li a:hover {
-	transition: 0.1s;
-	padding: 10px 26px;
 	background-color: #111;
 }
 
