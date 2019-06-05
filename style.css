@@ -33,18 +33,6 @@ a {color: white}
 	display: inline-block;
 }
 
-.logo {
-	padding-top: 3%;
-	text-align: center;
-}
-
-.hr {
-	margin: 0;
-	height: 1px;
-	border: none;
-	background-color: #262626;
-}
-
 .MCB {
 	color: #E0E0E0;
 	display: inline-block;
@@ -67,24 +55,3 @@ a {color: white}
 	border-bottom: 4px solid #59639A;
 	background-image: url('files/button_active_center.png');
 }
-
-ul.navbar {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	list-style-type: none;
-	background-color: #1C1C1C;
-}
-
-ul.navbar li a {
-	display: block;
-	padding: 10px 16px;
-	text-align: center;
-	text-decoration: none;
-}
-
-ul.navbar li a:hover {
-	background-color: #111;
-}
-
-ul.navbar li {float: left}
