@@ -19,13 +19,8 @@ a {color: white}
 }
 
 .format {
-	margin: 1% 0% 0% 3%;
+	text-align: center;
 	padding-bottom: 30px;
-}
-
-.head {
-	font-size: 64px;
-	display: inline-block;
 }
 
 .subhead {
@@ -53,5 +48,5 @@ a {color: white}
 	border-left: 2px solid #BDC6FF;
 	border-right: 2px solid #59639A;
 	border-bottom: 4px solid #59639A;
-	background-image: url('files/button_active_center.png');
+	background-image: url('files/button_center_active.png');
 }
