@@ -4,7 +4,53 @@
 
 	<head>
 		<title>Clear Glass</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			@font-face {
+				font-family: minecraftia;
+				src: url('files/minecraftia.ttf');
+			}
+
+			html, body {
+				margin: 0;
+				color: white;
+				font-size: 16px;
+				background-color: black;
+				font-family: minecraftia;
+			}
+
+			.format {
+				text-align: center;
+				padding-bottom: 5%;
+			}
+
+			::selection {
+				color: inherit;
+				background-color: transparent;
+			}
+
+			.MCB {
+				color: #E0E0E0;
+				display: inline-block;
+				text-decoration: none;
+				outline: 2px solid black;
+				padding: 0px 10px 0px 10px;
+				border-top: 2px solid #AAA;
+				border-left: 2px solid #AAA;
+				text-shadow: 3px 3px #4C4C4C;
+				border-right: 2px solid #565656;
+				border-bottom: 4px solid #565656;
+				background-image: url('files/button_center.png');
+			}
+
+			.MCB:hover {
+				color: #FFFFA0;
+				border-top: 2px solid #BDC6FF;
+				border-left: 2px solid #BDC6FF;
+				border-right: 2px solid #59639A;
+				border-bottom: 4px solid #59639A;
+				background-image: url('files/button_center_active.png');
+			}
+		</style>
 	</head>
 
 	<body>
@@ -52,7 +98,7 @@
 			<br>
 			<br>
 			<p style="font-size:32px">Connected Textures</p>
-			<p>You need <a target="_blank" href="https://optifine.net">OptiFine</a> for Connected Textures to work.</p>
+			<p>You need <a style="color:white" target="_blank" href="https://optifine.net">OptiFine</a> for Connected Textures to work.</p>
 			<p><span class="MCB">Options</span> -> <span class="MCB">Video Settings</span> -> <span class="MCB">Quality</span> -> <span class="MCB">Connected Textures</span> = <span class="MCB">Fancy</span></p>
 			<br>
 			<br>
@@ -63,7 +109,7 @@
 			<br>
 			<br>
 			<p style="font-size:32px">Credits</p>
-			<p><a target="_blank" href="https://www.minecraftforum.net/members/ShockingShots">ShockingShots</a> -> <a target="_blank" href="https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/2544420">Clear Glass</a></p>
+			<p><a style="color:white" target="_blank" href="https://www.minecraftforum.net/members/ShockingShots">ShockingShots</a> -> <a style="color:white" target="_blank" href="https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/2544420">Clear Glass</a></p>
 		</div>
 	</body>
 
