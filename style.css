@@ -1,0 +1,52 @@
+@font-face {
+	font-family: minecraftia;
+	src: url('files/minecraftia.ttf');
+}
+
+html, body {
+	margin: 0;
+	color: white;
+	font-size: 16px;
+	background-color: black;
+	font-family: minecraftia;
+}
+
+.format {
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+::selection {
+	color: inherit;
+	background-color: transparent;
+}
+
+.MCB {
+	color: #E0E0E0;
+	display: inline-block;
+	text-decoration: none;
+	outline: 2px solid black;
+	padding: 0px 10px 0px 10px;
+	border-top: 2px solid #AAA;
+	border-left: 2px solid #AAA;
+	text-shadow: 3px 3px #4C4C4C;
+	border-right: 2px solid #565656;
+	border-bottom: 4px solid #565656;
+	background-image: url('files/button_center.png');
+}
+
+.MCB:hover {
+	color: #FFFFA0;
+	border-top: 2px solid #BDC6FF;
+	border-left: 2px solid #BDC6FF;
+	border-right: 2px solid #59639A;
+	border-bottom: 4px solid #59639A;
+	background-image: url('files/button_center_active.png');
+}
+
+table, th, td {
+	border: 2px solid grey;
+	border-collapse: collapse;
+}
+
+th, td {padding:10px}
