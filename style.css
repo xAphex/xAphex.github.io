@@ -44,15 +44,25 @@ html, body {
 	background-image: url('files/button_center_active.png');
 }
 
-table, th, td {
+table {
 	color: #E0E0E0;
+	outline: 2px solid black;
 	border-collapse: collapse;
-	border-top: 2px solid #AAA;
-	border-left: 2px solid #AAA;
+	border-top: 4px solid #AAA;
+	border-left: 4px solid #AAA;
 	text-shadow: 3px 3px #4C4C4C;
-	border-right: 2px solid #565656;
-	border-bottom: 2px solid #565656;
+	border-right: 4px solid #565656;
+	border-bottom: 6px solid #565656;
 	background-image: url('files/button_center.png');
+}
+
+table:hover {
+	color: #FFFFA0;
+	border-top: 4px solid #BDC6FF;
+	border-left: 4px solid #BDC6FF;
+	border-right: 4px solid #59639A;
+	border-bottom: 6px solid #59639A;
+	background-image: url('files/button_center_active.png');
 }
 
 th, td {padding:0px 10px 0px 10px}
