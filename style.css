@@ -10,11 +10,6 @@ html, body {
 	background-image: url('files/background.png');
 }
 
-.format {
-	text-align: center;
-	padding-bottom: 2%;
-}
-
 ::selection {
 	color: inherit;
 	background-color: transparent;
