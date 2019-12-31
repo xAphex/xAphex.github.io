@@ -12,7 +12,7 @@ html, body {
 
 .format {
 	text-align: center;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 
 ::selection {
@@ -42,25 +42,3 @@ html, body {
 	border-bottom: 4px solid #59639A;
 	background-image: url('files/button_center_active.png');
 }
-
-table {
-	color: #E0E0E0;
-	outline: 2px solid black;
-	border-top: 4px solid #AAA;
-	border-left: 4px solid #AAA;
-	text-shadow: 3px 3px #4C4C4C;
-	border-right: 4px solid #565656;
-	border-bottom: 8px solid #565656;
-	background-image: url('files/button_center.png');
-}
-
-table:hover {
-	color: #FFFFA0;
-	border-top: 4px solid #BDC6FF;
-	border-left: 4px solid #BDC6FF;
-	border-right: 4px solid #59639A;
-	border-bottom: 8px solid #59639A;
-	background-image: url('files/button_center_active.png');
-}
-
-th, td {padding:0px 10px 0px 10px}
