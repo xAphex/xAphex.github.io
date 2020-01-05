@@ -5,7 +5,7 @@
 
 html, body {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	color: white;
 	font-family: minecraftia;
 	background-image: url('files/background.png');
@@ -18,6 +18,7 @@ html, body {
 
 .MCB {
 	color: #E0E0E0;
+	font-size: 20px;
 	display: inline-block;
 	text-decoration: none;
 	outline: 2px solid black;
