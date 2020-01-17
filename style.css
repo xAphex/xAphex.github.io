@@ -39,3 +39,5 @@ html, body {
 	border-bottom: 4px solid #59639A;
 	background-image: url('files/button_center_active.png');
 }
+
+span.MCB {font-size:initial}
