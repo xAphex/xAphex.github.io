@@ -7,6 +7,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: white;
+	cursor: default;
 	font-family: minecraftia;
 	background-image: url('files/background.png');
 }
@@ -28,16 +29,9 @@ html, body {
 	text-shadow: 3px 3px #4C4C4C;
 	border-right: 2px solid #565656;
 	border-bottom: 4px solid #565656;
-	background-image: url('files/button_center.png');
+	background-image: url('files/mcb.png');
 }
 
-.MCB:hover {
-	color: #FFFFA0;
-	border-top: 2px solid #BDC6FF;
-	border-left: 2px solid #BDC6FF;
-	border-right: 2px solid #59639A;
-	border-bottom: 4px solid #59639A;
-	background-image: url('files/button_center_active.png');
-}
+.MCB:hover {outline: 2px solid white}
 
-span.MCB {font-size:initial}
+span.MCB {font-size: initial}
