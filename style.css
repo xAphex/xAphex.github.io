@@ -1,6 +1,6 @@
 @font-face {
 	font-family: minecraftia;
-	src: url('files/minecraftia.ttf');
+	src: url('source/minecraftia.ttf');
 }
 
 html, body {
@@ -9,7 +9,7 @@ html, body {
 	color: white;
 	cursor: default;
 	font-family: minecraftia;
-	background-image: url('files/background.png');
+	background-image: url('source/background.png');
 }
 
 ::selection {
@@ -29,7 +29,7 @@ html, body {
 	text-shadow: 3px 3px #4C4C4C;
 	border-right: 2px solid #565656;
 	border-bottom: 4px solid #565656;
-	background-image: url('files/mcb.png');
+	background-image: url('source/mcb.png');
 }
 
 .MCB:hover {outline: 2px solid white}
